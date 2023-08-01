@@ -497,12 +497,15 @@ ul {
   display: flex;
   float: left;
   align-items: center;
-  padding: 29px 0;
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  /* padding: 29px 0; */
 }
 
 .main-menu-wrapper__logo {
   position: relative;
   margin-right: 40px;
+  left: 20px;
 }
 
 .main-menu-wrapper__btn-box {
@@ -804,7 +807,7 @@ ul {
 
 .main-menu .mobile-nav__toggler {
   font-size: 20px;
-  color: var(--qondri-base);
+  color: var(--makwaji-main);
   cursor: pointer;
   transition: 500ms;
 }
@@ -879,7 +882,7 @@ ul {
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
 }
 
@@ -1024,7 +1027,7 @@ ul {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--qondri-base);
+  background-color: var(--makwaji-main);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3201,7 +3204,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 110px 0 80px;
+  padding: 90px 0 50px;
 }
 
 .footer-widget__about {
@@ -3214,7 +3217,7 @@ ul {
   position: relative;
   display: block;
   padding-bottom: 33px;
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 .footer-widget__about-text {
@@ -6567,4 +6570,10 @@ ul {
 
 .my-float {
   margin-top: 16px;
+}
+
+.footer-widget__logo {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
