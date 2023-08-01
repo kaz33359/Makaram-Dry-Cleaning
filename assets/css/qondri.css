@@ -883,12 +883,15 @@ ul {
 
 .mobile-nav__content .logo-box {
   margin-bottom: 20px;
+  margin-top: 10px;
   display: flex;
+  justify-content: center;
+  background-color: white;
 }
 
 .mobile-nav__close {
   position: absolute;
-  top: 20px;
+  top: 5px;
   right: 15px;
   font-size: 18px;
   color: var(--qondri-text-dark);
