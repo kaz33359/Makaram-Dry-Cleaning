@@ -488,7 +488,7 @@ ul {
   position: relative;
   display: block;
   padding: 0 15px;
-  max-width: 1400px;
+  max-width: 1450px;
   margin: 0 auto;
 }
 
@@ -534,7 +534,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: 110px;
+  margin-left: 14px;
   padding: 27.5px 0;
 }
 
@@ -652,7 +652,7 @@ ul {
 
 .main-menu .main-menu__list>li+li,
 .stricky-header .main-menu__list>li+li {
-  margin-left: 55px;
+  margin-left: 35px;
 }
 
 .main-menu .main-menu__list>li>a,
@@ -2162,9 +2162,9 @@ ul {
 }
 
 .services-one__title {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .services-one__title a {
