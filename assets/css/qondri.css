@@ -2030,7 +2030,7 @@ ul {
 
 .welcome-one__call-icon:hover {
   color: var(--qondri-white);
-  background-color: var(--qondri-base);
+  background-color: var(--makwaji-main);
 }
 
 .welcome-one__call-content {
@@ -2051,7 +2051,7 @@ ul {
 }
 
 .welcome-one__call-content a:hover {
-  color: var(--qondri-base);
+  color: var(--makwaji-main);
 }
 
 /*--------------------------------------------------------------
@@ -5787,7 +5787,7 @@ ul {
 }
 
 .faq-one-accrodion .accrodion-title h4::before {
-  content: "\f067";
+  /* content: "\f067"; */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 13px;
@@ -5809,7 +5809,7 @@ ul {
 }
 
 .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
-  content: "\f068";
+  /* content: "\f068"; */
   color: var(--qondri-black);
   height: 35px;
   width: 35px;
@@ -6087,7 +6087,7 @@ ul {
 .faq-one__right {
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  margin-top: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -6296,7 +6296,7 @@ ul {
 }
 
 .contact-info__number-1:hover {
-  color: var(--qondri-base);
+  color: var(--makwaji-main);
 }
 
 .contact-info__number-2 {
@@ -6318,7 +6318,7 @@ ul {
 }
 
 .contact-info__mail-1:hover {
-  color: var(--qondri-base);
+  color: var(--makwaji-main);
 }
 
 .contact-info__mail-2 {
@@ -6562,7 +6562,7 @@ ul {
   height: 60px;
   bottom: 100px;
   right: 35px;
-  background-color: #fed616;
+  background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
