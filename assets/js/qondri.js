@@ -820,7 +820,7 @@ form.addEventListener("submit", function (event) {
   let subject = document.getElementById("subject").value;
   let comments = document.getElementById("comments").value;
 
-  window.location.href = `mailto:makwaji.uae@gmail.com?subject=Enquiry from ${full_name} ${email} ${subject}&body= ${comments}`;
+  window.location.href = `mailto:makaramdc@gmail.com?subject=Enquiry from ${full_name} ${email} ${subject}&body= ${comments}`;
 
   contact();
 });

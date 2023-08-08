@@ -32,6 +32,7 @@
   --qondri-bdr-color: #dee3e8;
   --qondri-bdr-color-rgb: 222, 227, 232;
   --makwaji-main: rgb(254 214 22);
+  --makaram-main: #2148ef;
 }
 
 .row {
@@ -142,7 +143,7 @@ ul {
   vertical-align: middle;
   -webkit-appearance: none;
   outline: none !important;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   color: var(--qondri-white);
   font-size: 15px;
   font-weight: 700;
@@ -166,7 +167,7 @@ ul {
 .thm-btn::before {
   position: absolute;
   content: "";
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   width: 100%;
   height: 0%;
   left: 50%;
@@ -229,7 +230,7 @@ ul {
 .section-title__tagline {
   position: relative;
   display: inline-block;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   font-size: 20px;
   line-height: 30px;
 }
@@ -337,7 +338,7 @@ ul {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: var(--makwaji-main);
+  background: var(--makaram-main);
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -420,7 +421,7 @@ ul {
 
 .main-header__top-address li .icon span {
   font-size: 15px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-header__top-address li .text {
@@ -441,7 +442,7 @@ ul {
 }
 
 .main-header__top-address li .text a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-header__top-right {
@@ -471,7 +472,7 @@ ul {
 }
 
 .main-header__top-social a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-header__top-social a+a {
@@ -581,13 +582,13 @@ ul {
 
 .main-menu-wrapper__call-icon span {
   font-size: 40px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .main-menu-wrapper__call-icon:hover span {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-menu-wrapper__call-number {
@@ -607,7 +608,7 @@ ul {
 }
 
 .main-menu-wrapper__call-number a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-menu-wrapper__call-number p {
@@ -642,6 +643,7 @@ ul {
     display: flex;
   }
 }
+
 @media (min-width: 1500px) {
 
   .main-menu .main-menu__list,
@@ -816,7 +818,7 @@ ul {
 
 .main-menu .mobile-nav__toggler {
   font-size: 20px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   cursor: pointer;
   transition: 500ms;
 }
@@ -1039,7 +1041,7 @@ ul {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1239,7 +1241,7 @@ ul {
 .main-slider h2 span {
   position: relative;
   display: inline-block;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .main-slider .thm-btn {
@@ -1689,7 +1691,7 @@ ul {
 
 .feature-one__icon span {
   font-size: 63px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   position: relative;
   display: inline-block;
   transition: all 500ms linear;
@@ -1723,7 +1725,7 @@ ul {
 }
 
 .feature-one__single-base {
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
 }
 
 .feature-one__single-base .feature-one__icon span {
@@ -1743,7 +1745,7 @@ ul {
 }
 
 .feature-one__single-black .feature-one__icon span {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .feature-one__single-black .feature-one__title a {
@@ -1887,7 +1889,7 @@ ul {
   right: 0;
   content: "";
   height: 12px;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
 }
 
 .welcome-one__small-img img {
@@ -1935,7 +1937,7 @@ ul {
 
 .welcome-one__experience h3 {
   font-size: 54px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   font-weight: 700;
   line-height: 64px;
 }
@@ -1964,7 +1966,7 @@ ul {
 
 .welcome-one__text-1 {
   font-size: 24px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   margin: 0;
   margin-bottom: 35px;
 }
@@ -1998,7 +2000,7 @@ ul {
 
 .welcome-one__points li .icon span {
   font-size: 16px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .welcome-one__points li .text {
@@ -2040,7 +2042,7 @@ ul {
 
 .welcome-one__call-icon:hover {
   color: var(--qondri-white);
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
 }
 
 .welcome-one__call-content {
@@ -2061,7 +2063,7 @@ ul {
 }
 
 .welcome-one__call-content a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 /*--------------------------------------------------------------
@@ -2132,7 +2134,7 @@ ul {
 .services-one__icon {
   height: 92px;
   width: 92px;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2184,7 +2186,7 @@ ul {
 }
 
 .services-one__single:hover .services-one__title a {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .services-one__text {
@@ -2398,7 +2400,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   background-blend-mode: soft-light;
   /* opacity: 0.4; */
   z-index: -1;
@@ -2615,7 +2617,7 @@ ul {
 
 .why-choose-one__icon span {
   font-size: 62px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   position: relative;
   display: inline-block;
   transition: all 500ms linear;
@@ -2676,7 +2678,7 @@ ul {
   width: 0px;
   height: 5px;
   border-radius: 0px;
-  background: var(--makwaji-main);
+  background: var(--makaram-main);
   -webkit-transition: all 1500ms ease;
   -ms-transition: all 1500ms ease;
   -o-transition: all 1500ms ease;
@@ -2814,7 +2816,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 66px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .how-we-work__count {
@@ -2833,7 +2835,7 @@ ul {
 }
 
 .how-we-work__single:hover .how-we-work__count {
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
 }
 
 .how-we-work__count:before {
@@ -3094,7 +3096,7 @@ ul {
   background-repeat: repeat-x;
   background-size: cover;
   background-position: center;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   background-blend-mode: soft-light;
   /* opacity: 0.4; */
   z-index: -1;
@@ -3271,7 +3273,7 @@ ul {
 .site-footer__social a::before {
   position: absolute;
   content: "";
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   width: 100%;
   height: 0%;
   left: 50%;
@@ -3322,7 +3324,7 @@ ul {
 }
 
 .footer-widget__links-list li a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .footer-widget__contact {
@@ -3365,7 +3367,7 @@ ul {
 
 .footer-widget__contact-list li .icon span {
   font-size: 14px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .footer-widget__contact-list li .text {
@@ -3381,7 +3383,7 @@ ul {
 }
 
 .footer-widget__contact-list li:hover .text a {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .footer-widget__newsletter {
@@ -3429,7 +3431,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   color: var(--qondri-white);
   font-weight: 700;
   border: 0;
@@ -3470,7 +3472,7 @@ ul {
 }
 
 .site-footer__bottom-text a:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .site-footer__bottom-menu {
@@ -4760,11 +4762,11 @@ ul {
 }
 
 .thm-breadcrumb li:hover a {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .thm-breadcrumb li.active {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 /*--------------------------------------------------------------
@@ -5793,7 +5795,7 @@ ul {
 }
 
 .faq-one-accrodion .accrodion.active .accrodion-title h4 {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .faq-one-accrodion .accrodion-title h4::before {
@@ -5801,7 +5803,7 @@ ul {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 13px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   position: absolute;
   top: 50%;
   right: 0;
@@ -5893,7 +5895,7 @@ ul {
   right: 0;
   height: 6px;
   content: "";
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
 }
 
 .get-to-know__img-2 img {
@@ -5943,7 +5945,7 @@ ul {
 
 .get-to-know__points li .icon span {
   font-size: 16px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .get-to-know__points li .text {
@@ -6013,7 +6015,7 @@ ul {
 
 .counter-one__content h3 {
   font-size: 50px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   font-weight: 400;
   font-family: var(--qondri-font) !important;
   line-height: 60px !important;
@@ -6258,7 +6260,7 @@ ul {
   position: relative;
   height: 110px;
   width: 110px;
-  background-color: var(--makwaji-main);
+  background-color: var(--makaram-main);
   border-radius: 50%;
   margin: 0 auto 18px;
   display: flex;
@@ -6306,7 +6308,7 @@ ul {
 }
 
 .contact-info__number-1:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .contact-info__number-2 {
@@ -6328,7 +6330,7 @@ ul {
 }
 
 .contact-info__mail-1:hover {
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .contact-info__mail-2 {
@@ -6486,7 +6488,7 @@ ul {
 
 .testimonial-one__client-name span {
   font-size: 16px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
   font-weight: 500;
 }
 
@@ -6498,7 +6500,7 @@ ul {
 
 .testimonial-one__client-quote span {
   font-size: 30px;
-  color: var(--makwaji-main);
+  color: var(--makaram-main);
 }
 
 .testimonial-one__nav {
