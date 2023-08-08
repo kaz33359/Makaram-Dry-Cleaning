@@ -197,33 +197,28 @@
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="contact-page__right">
-                            <form action="https://qondri-html.vercel.app/assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                            <form id="comment-form" name="comment-form" action="" method="post" class="comment-one__form contact-form-validated">
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Your Name" name="name">
+                                            <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Your Full Name" required="" />
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="comment-form__input-box">
-                                            <input type="email" placeholder="Email Address" name="email">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required="" />
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="col-xl-12 col-lg-6 col-md-6">
                                         <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Phone Number" name="phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Subject" name="subject">
+                                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required="" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="comment-form__input-box text-message-box">
-                                            <textarea name="message" placeholder="Write a Comment"></textarea>
+                                            <textarea name="comments" id="comments" class="form-control" rows="10" placeholder="Write Message" required=""></textarea>
                                         </div>
                                         <div class="comment-form__btn-box">
                                             <button type="submit" class="thm-btn comment-form__btn">Send a Message<span class="icon-right-arrow"></span></button>

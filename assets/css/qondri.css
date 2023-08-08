@@ -1962,6 +1962,7 @@ ul {
 
 .welcome-one__text-2 {
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .welcome-one__points {
@@ -5913,7 +5914,7 @@ ul {
   position: relative;
   display: block;
   margin-top: 31px;
-  margin-bottom: 42px;
+  /* margin-bottom: 42px; */
 }
 
 .get-to-know__points li {
