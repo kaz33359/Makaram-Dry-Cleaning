@@ -111,6 +111,12 @@ ul {
   }
 }
 
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
 ::placeholder {
   color: inherit;
   opacity: 1;
@@ -634,6 +640,15 @@ ul {
 }
 
 @media (min-width: 1200px) {
+
+  .main-menu .main-menu__list,
+  .main-menu .main-menu__list ul,
+  .stricky-header .main-menu__list,
+  .stricky-header .main-menu__list ul {
+    display: flex;
+  }
+}
+@media (min-width: 1500px) {
 
   .main-menu .main-menu__list,
   .main-menu .main-menu__list ul,
