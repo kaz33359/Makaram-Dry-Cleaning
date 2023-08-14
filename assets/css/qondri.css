@@ -1006,7 +1006,7 @@ ul {
 }
 
 .mobile-nav__social a:hover {
-  color: var(--qondri-base);
+  color: var(--makaram-main);
 }
 
 .mobile-nav__contact {
@@ -1034,7 +1034,7 @@ ul {
 }
 
 .mobile-nav__contact li a:hover {
-  color: var(--qondri-base);
+  color: var(--makaram-main);
 }
 
 .mobile-nav__contact li>i {
